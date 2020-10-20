@@ -1,5 +1,5 @@
 {
-    "name": "nikic/php-parser",
+    "name": "speqta/php-parser",
     "type": "library",
     "description": "A PHP parser written in PHP",
     "keywords": [
@@ -19,6 +19,9 @@
     "require-dev": {
         "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0",
         "ircmaxell/php-yacc": "^0.0.7"
+    },
+    "replace": {
+        "nikic/php-parser": "*"
     },
     "extra": {
         "branch-alias": {
